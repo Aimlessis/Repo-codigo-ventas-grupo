@@ -13,9 +13,12 @@ for i in range(numero_ventas):
 
 precio_total = 0
 for venta in ventas:
+    print("_________________________________ \n")
     print(f"venta \n")
     print(f"producto: {venta['Producto']} \n")
     print(f"precio: {venta['Precio']} \n")
+    print("_________________________________ \n")
+
 
     precio_total += venta['Precio']
 
